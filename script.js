@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     noButton.classList.add('clickable');
                     noButton.textContent = 'awhh sure na talaga';
                     noButton.style.transform = noButton.style.transform; // Keep last position
-                    messageContainer.textContent = 'ems may choice ka naman kadi if ayaw mo or not HAHAHAHAHA hopped this somewhat made your day better lololol :PP';
+                    messageContainer.textContent = 'ems may choice ka naman kadi if ayaw mo or not HAHAHAHAHA hoped this somewhat made your day better lololol :PP';
                     messageContainer.classList.remove('hidden');
                     messageContainer.classList.add('visible');
                     // Store the choice
@@ -236,4 +236,5 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = 'success.html';
         });
     }
+
 });
